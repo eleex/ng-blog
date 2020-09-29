@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1601385829289,
+  "index": "https://eleex.github.io/ng-blog/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://eleex.github.io/ng-blog/4.c3375ce0200d0ee40ccd.js",
+        "https://eleex.github.io/ng-blog/5.f194b9e5945d6b07bb5b.js",
+        "https://eleex.github.io/ng-blog/favicon.ico",
+        "https://eleex.github.io/ng-blog/index.html",
+        "https://eleex.github.io/ng-blog/main.521159f83501b8e5d9e2.js",
+        "https://eleex.github.io/ng-blog/manifest.webmanifest",
+        "https://eleex.github.io/ng-blog/polyfills.a4021de53358bb0fec14.js",
+        "https://eleex.github.io/ng-blog/runtime.ba7f4e2a522144aa18af.js",
+        "https://eleex.github.io/ng-blog/styles.a1d8d95c64a9340a857f.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Roboto"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://eleex.github.io/ng-blog/assets/icons/icon-128x128.png",
+        "https://eleex.github.io/ng-blog/assets/icons/icon-144x144.png",
+        "https://eleex.github.io/ng-blog/assets/icons/icon-152x152.png",
+        "https://eleex.github.io/ng-blog/assets/icons/icon-192x192.png",
+        "https://eleex.github.io/ng-blog/assets/icons/icon-384x384.png",
+        "https://eleex.github.io/ng-blog/assets/icons/icon-512x512.png",
+        "https://eleex.github.io/ng-blog/assets/icons/icon-72x72.png",
+        "https://eleex.github.io/ng-blog/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "firebase-posts",
+      "patterns": [
+        "https:\\/\\/angular-blog-12d19\\.firebaseio\\.com\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 0,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://eleex.github.io/ng-blog/4.c3375ce0200d0ee40ccd.js": "ee1f3c885a518c5377f598436be527210ba284f3",
+    "https://eleex.github.io/ng-blog/5.f194b9e5945d6b07bb5b.js": "5c4e8d243e089b6072e3edb1a5aa6e2ae578d45a",
+    "https://eleex.github.io/ng-blog/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://eleex.github.io/ng-blog/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://eleex.github.io/ng-blog/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://eleex.github.io/ng-blog/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://eleex.github.io/ng-blog/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://eleex.github.io/ng-blog/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://eleex.github.io/ng-blog/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://eleex.github.io/ng-blog/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://eleex.github.io/ng-blog/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://eleex.github.io/ng-blog/index.html": "8b16afcf8681d03670f3234fafac83829e0801b0",
+    "https://eleex.github.io/ng-blog/main.521159f83501b8e5d9e2.js": "c6daf71a0d9fdf8a7fa183a7ac3680c560378122",
+    "https://eleex.github.io/ng-blog/manifest.webmanifest": "1e80970cdbf3fb3077eae54b766578b5e14bb579",
+    "https://eleex.github.io/ng-blog/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
+    "https://eleex.github.io/ng-blog/runtime.ba7f4e2a522144aa18af.js": "35335e4fe478f69f51ba63ec2908e4d4833185e2",
+    "https://eleex.github.io/ng-blog/styles.a1d8d95c64a9340a857f.css": "0ecfb01e9d47c44b439f446d02810189e0f05c16"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
