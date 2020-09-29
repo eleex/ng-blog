@@ -300,5 +300,13 @@ table th {
     &:hover {
       color: var(--light-color);
     }
+
+    &.login__link {
+      position: absolute;
+      right: 200px;
+      display: block;
+      font-weight: 600;
+      color: var(--success-color);
+    }
   }
 }
